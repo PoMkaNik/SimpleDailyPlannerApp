@@ -1,0 +1,23 @@
+body {
+  padding-top: 85px;
+}
+
+@media screen and (max-width: 575px) {
+  body {
+    padding-top: 57px;
+  }
+
+}
+
+header {
+  padding: 10px 15px 5px 15px;
+  text-align: center;
+}
+
+hr {
+  margin: 5px 10px 20px 10px;
+}
+
+.taskTitle {
+  font-size: 1.5em;
+}
