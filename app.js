@@ -101,8 +101,8 @@ function fillInTheForm(e) {
 
 function displayTasks() {
   let tasks = JSON.parse(localStorage.getItem('tasks'));
-  // sort tasks list by date
   if (tasks) {
+    // sort tasks list by date
     tasks = tasks.sort(sortByDate);
 
     tasks.forEach((task) => {
